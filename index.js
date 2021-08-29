@@ -93,7 +93,7 @@ async function eth() {
 
   async function d(){
     coinsInfo.ETH.ETHVARD = ((await page.evaluate(() => {
-      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.dEqHl.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span").className).substr(11)
+      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.comDep.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span")).className.substr(11)
     })))
     d()
   }
@@ -124,7 +124,7 @@ async function btc() {
 
   async function d(){
     coinsInfo.BTC.BTCVARD = ((await page.evaluate(() => {
-      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.dEqHl.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span").className).substr(11)
+      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.comDep.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span")).className.substr(11)
     })))
     d()
   }
@@ -156,7 +156,7 @@ async function ltc() {
 
   async function d(){
     coinsInfo.LTC.LTCVARD = ((await page.evaluate(() => {
-      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.dEqHl.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span").className).substr(11)
+      return (document.querySelector("#__next > div > div.main-content > div.sc-57oli2-0.comDep.cmc-body-wrapper > div > div.sc-16r8icm-0.eMxKgr.container > div.n78udj-0.jskEGI > div > div.sc-16r8icm-0.kjciSH.priceSection > div.sc-16r8icm-0.kjciSH.priceTitle > span > span")).className.substr(11)
     })))
     d()
   }
