@@ -1,0 +1,27 @@
+{
+  "name": "api-axieslp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "12.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davibs22/API-AxieSLP.git"
+  },
+  "author": "Davi Bomfim Santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davibs22/API-AxieSLP/issues"
+  },
+  "homepage": "https://github.com/davibs22/API-AxieSLP#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "puppeteer": "^10.2.0"
+  }
+}
